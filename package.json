@@ -1,0 +1,44 @@
+{
+  "name": "zerodha-clone",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "Zerodha Clone full-stack project",
+  "author": "Manjeet Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "@craco/craco": "^5.9.0",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/icons-material": "^7.2.0",
+    "@mui/material": "^7.2.0",
+    "@types/react-router-dom": "^5.3.3",
+    "assert": "^2.1.0",
+    "axios": "^1.11.0",
+    "bcrypt": "^6.0.0",
+    "buffer": "^6.0.3",
+    "chart.js": "^4.5.0",
+    "https-browserify": "^1.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.18.0",
+    "path-browserify": "^1.0.1",
+    "process": "^0.11.10",
+    "react-chartjs-2": "^5.3.0",
+    "react-router-dom": "^7.8.2",
+    "stream-browserify": "^3.0.0",
+    "url": "^0.11.4"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.0",
+    "nodemon": "^3.1.0",
+    "react-app-rewired": "^0.1.0"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-app-rewired eject",
+    "server": "nodemon index.js",
+    "dev": "concurrently \"npm run server\" \"npm run start\""
+  },
+  "keywords": []
+}
