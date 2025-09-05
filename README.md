@@ -31,8 +31,6 @@ A modern brokerage platform that lets users track **real-time stock prices**, ma
 
 
 ```bash
-# Clone repository
-git clone https://github.com/your-username/brokerage-platform.git
 
 # Install backend
 cd backend
