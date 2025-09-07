@@ -14,9 +14,9 @@ A modern brokerage platform that lets users track **real-time stock prices**, ma
 
 ### 📂 Project Structure  
 
-- **Frontend:** React.js, Redux, Tailwind CSS  
-- **Backend:** Node.js, Express.js, WebSockets  
-- **Database:** MongoDB / PostgreSQL  
+- **Frontend:** React.js,  Tailwind CSS  
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB
 - **Authentication:** JWT, bcrypt  
 - **DevOps:** Docker, GitHub Actions, Nginx  
 
